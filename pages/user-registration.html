@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>User Registration Page</title>
+  <link rel="stylesheet" href="style.css">
+  <title>User Registration Page</title>
+   <!-- Favicon -->
+   <link rel="shortcut icon" href="../assets/images/favicon.ico" type="image/x-icon">
+   <!-- Google Fonts -->
+   <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css?family=Cabin:400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+   <!-- Font Awesome CSS -->
+   <link rel="stylesheet" href="../assets/fonts/css/font-awesome.min.css" />
+   <!-- Bootstrap-->
+   <link rel="stylesheet" href="../assets/css/bootstrap.min.css" />
+   <!-- Style -->
+   <link rel="stylesheet" href="../assets/css/style.css" />
+   <!-- Responsive Style -->
+   <link rel="stylesheet" href="../assets/css/responsive.css" />
+   <!-- Animate CSS -->
+   <link rel="stylesheet" href="../assets/plugins/animate.css-master/animate.min.css">
+   <!-- Light Box -->
+   <link href="../assets/plugins/lightbox2-master/dist/css/lightbox.css" rel="stylesheet">
+   <!-- Video js -->
+   <link href="../assets/css/video-js.css" rel="stylesheet">
+   <!-- Datapicker -->
+   <link href="../assets/plugins/jquery-date-range-picker-master/dist/daterangepicker.min.css" rel="stylesheet">
+   <!-- Sliders -->
+   <link rel="stylesheet" type="text/css" href="../assets/plugins/slick-1.8.0/slick/slick.css" />
+   <link rel="stylesheet" type="text/css" href="../assets/plugins/slick-1.8.0/slick/slick-theme.css" />
+
+   <style>
+    /* Basic Styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #1e1d32;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.form-wrap {
+  background-color: #1b1a2a;
+  padding: 15px;
+  border-radius: 10px;
+  width: 400px;
+  max-width: 100%;
+  box-shadow: 0px 0px 20px 0px rgba(66, 120, 170, 0.2);
+  position: relative;
+}
+
+h1 {
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 30px;
+  color: #f2f2f2;
+}
+
+.signup-form input {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: none;
+  font-size: 16px;
+  color: #f2f2f2;
+  background-color: #383946;
+}
+
+.signup-form input:focus {
+  outline: none;
+  border: 2px solid #60bff7;
+}
+
+.signup-form .button {
+  background-color: #60bff7;
+  color: #FFFFFF;
+  padding: 15px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  width: 100%;
+  margin-top: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.signup-form .button:hover {
+  background-color: #4e94b4;
+  cursor: pointer;
+}
+
+.terms {
+  font-size: 14px;
+  color: #f2f2f2;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.terms a {
+  color: #60bff7;
+  text-decoration: none;
+}
+
+.login-link {
+  font-size: 14px;
+  color: #f2f2f2;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.login-link a {
+  color: #60bff7;
+  text-decoration: none
+}
+
+   </style>
+</head>
+<body>
+  <div class="container">
+    <div class="form-wrap">
+      <h1>Create an account</h1>
+      <form action="#" class="signup-form">
+        <input type="text" placeholder="Full Name" required>
+        <input type="email" placeholder="Email" required>
+        <input type="password" placeholder="Password" required>
+        <input type="submit" value="Sign Up" class="button">
+      </form>
+      <p class="terms">By clicking Sign Up, you agree to our <a href="#">Terms of Use</a> and <a href="#">Privacy Policy</a>.</p>
+      <div class="login-link">
+        Already have an account? <a href="user-login.html">Log In</a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
